@@ -26,7 +26,7 @@ pipeline{
         stage ("Build image" ) {
             steps{
                 sh """
-                Docker build .
+                docker build .
                 """
             }
         }
