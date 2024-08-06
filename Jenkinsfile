@@ -12,7 +12,6 @@ pipeline{
         stage('build'){
             steps{
                sh """
-               cd /java-hello-world-with-maven
                mvn package
                """
             }
